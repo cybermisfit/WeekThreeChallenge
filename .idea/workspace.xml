@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fd26199-a94c-44c6-9f36-274c637e9ac9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ResumeApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ResumeApp.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,8 +17,8 @@
       <file leaf-file-name="ResumeApp.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ResumeApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-344">
-              <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+            <state relative-caret-position="308">
+              <caret line="60" column="52" selection-start-line="60" selection-start-column="52" selection-end-line="60" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -174,7 +173,7 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24298055" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33585313" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32937366" />
       <window_info id="Capture Tool" order="2" />
@@ -225,8 +224,8 @@
     <entry file="file://$PROJECT_DIR$/src/Personal.java" />
     <entry file="file://$PROJECT_DIR$/src/ResumeApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-344">
-          <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+        <state relative-caret-position="308">
+          <caret line="60" column="52" selection-start-line="60" selection-start-column="52" selection-end-line="60" selection-end-column="52" />
         </state>
       </provider>
     </entry>

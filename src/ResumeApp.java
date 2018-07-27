@@ -16,7 +16,7 @@ public class ResumeApp {
 
     //output("EDUCATION");
 
-    output("ENTER DEGREE TYPE: ");
+    output("ENTER DEGREE TYPE (AA, BS, MS, PhD, etc.): ");
     String degree = scan.nextLine();
 
     output("ENTER MAJOR: ");
@@ -58,8 +58,9 @@ public class ResumeApp {
 
             output("ENTER SKILL: ");
             String skill = scan.next();
+            //went back to scan.next to avoid errors
 
-            output("ENTER SKILL LEVEL (1=BEGINNER, 2=INTERMEDIATE, 3=ADVANCED: ");
+            output("ENTER SKILL LEVEL (1=BEGINNER, 2=INTERMEDIATE, 3=ADVANCED): ");
             int skillLevel = scan.nextInt();
 
             String level = "";
@@ -79,7 +80,7 @@ public class ResumeApp {
                     break;
             }
 
-            output("DO YOU WANT TO ADD ANOTHER SKILL? (ENTER 'q' TO QUIT)");
+            output("DO YOU WANT TO ADD ANOTHER SKILL (3 Skill Minimum)? (ENTER 'q' TO QUIT)");
             skillInput = scan.next();
 
 
@@ -95,14 +96,14 @@ public class ResumeApp {
 
         output("\n");
 
-        output("Education");
+        output("EDUCATION");
         output(degree + ", " + major);
         output(university + ", " + graduation);
 
 
         output("\n");
 
-        output("Experience");
+        output("EXPERIENCE");
         output(title);
         output(company + ", " + startDate + " - " + endDate);
         output("Duty 1, " + description1);
@@ -110,7 +111,7 @@ public class ResumeApp {
 
         output("\n");
 
-        output("Skills");
+        output("SKILLS");
         output(skillResult);
     }
 
