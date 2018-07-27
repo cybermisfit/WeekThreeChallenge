@@ -18,8 +18,11 @@ public class ResumeApp {
     //output("EDUCATION");
 
 
-    output("ENTER DEGREE TYPE:");
+    output("ENTER DEGREE TYPE: ");
     String degree = scan.nextLine();
+
+    output("ENTER MAJOR: ");
+    String major = scan.nextLine();
 
     output("ENTER UNIVERSITY NAME: ");
     String university = scan.nextLine();
@@ -101,7 +104,7 @@ public class ResumeApp {
         output("\n");
 
         output("Education");
-        output(degree);
+        output(degree + ", " + major);
         output(university + ", " + graduation);
 
 
