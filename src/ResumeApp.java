@@ -14,9 +14,7 @@ public class ResumeApp {
     output("ENTER EMAIL ADDRESS:  ");
     String email = scan.nextLine();
 
-
     //output("EDUCATION");
-
 
     output("ENTER DEGREE TYPE: ");
     String degree = scan.nextLine();
@@ -30,9 +28,7 @@ public class ResumeApp {
     output("ENTER GRADUATION YEAR: ");
     String graduation = scan.nextLine();
 
-
     //output("WORK EXPERIENCE");
-
 
     output("ENTER MOST RECENT JOB TITLE: ");
     String title = scan.nextLine();
@@ -52,11 +48,7 @@ public class ResumeApp {
     output("ENTER JOB DESCRIPTION #2: ");
     String description2 = scan.nextLine();
 
-
-
-
     //output("SKILLS");
-
 
     String skillInput = "";
     String skillResult = "";
@@ -94,7 +86,6 @@ public class ResumeApp {
 
         }
 
-
     //DISPLAY RESUME
 
         output("***************************************************************");
@@ -120,7 +111,6 @@ public class ResumeApp {
 
         output("Skills");
         output(skillResult);
-
     }
 
     //PRINT OUT METHOD
