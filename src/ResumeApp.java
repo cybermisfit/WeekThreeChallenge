@@ -27,6 +27,7 @@ public class ResumeApp {
 
     output("ENTER GRADUATION YEAR: ");
     String graduation = scan.nextLine();
+    //Use String instead of int to avoid errors and allow more than one word in other fields.
 
     //output("WORK EXPERIENCE");
 
